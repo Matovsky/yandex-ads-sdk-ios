@@ -14,5 +14,6 @@ let package = Package(
                name: "YandexMobileAds",
                path: "YandexMobileAds"
         )
-     ]
+     ],
+     swiftLanguageVersions: [.v5]
  )
