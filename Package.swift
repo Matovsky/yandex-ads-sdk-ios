@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
      name: "YandexMobileAds",
      platforms: [
-         .iOS(.v10)
+         .iOS(.v8)
      ],
      products: [
          .library(name: "YandexMobileAds", targets: ["YandexMobileAds"])
@@ -12,7 +12,7 @@ let package = Package(
      targets: [
         .target(
                name: "YandexMobileAds",
-               path: "YandexMobileAds"
+               path: "/Examples/Swift/YandexMobileAds"
         )
      ]
  )
